@@ -1,5 +1,5 @@
-class Person(val name: String, val age: Int) {
+class Person(val name: String, val year: Int) {
     fun introduce() {
-        println("Hi, I'm $name and I'm $age years old.")
+        println("Hi, I'm $name, and this is the year $year!")
     }
 }
